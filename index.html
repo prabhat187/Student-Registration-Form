@@ -1,0 +1,223 @@
+<html lang="en">
+ <head> 
+  <meta name="description" content="student registration form">
+  <meta name="keywords" content="Student, Form, Registration">
+  <meta name="author" content="Sakhawat Hossain Rodro">
+  
+  <!--favicon-->
+  
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  
+  <!--style-->
+  
+  <link rel="stylesheet" href="style.css">
+  
+  
+  <title>Student Registration Form</title> 
+  </head>
+<body>
+
+
+<!--nav bar section-->
+
+  <div class="navigation-bar">
+
+
+    <div id="navigation-container">
+
+      <img src="assets/DUET_logo.png" alt="Logo">
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Admission Process</a></li>
+        <li><a href="#">Student Panel</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+<br>  
+<br>  
+
+<!--student registration form-->
+<form>  
+  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> 
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> 
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> 
+<br>
+<br>
+  <label for="Pfile">Upload your photo:</label>
+  <input type="file" id="Pfile" name="Pfile">
+  <br>
+  <br>
+  
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday">
+
+
+<label> Birth  Place </label>         
+<input type="text" name="birthplace" size="15"/> <br> <br>  
+<label> Father's Name </label>     
+<input type="text" name="fathername" size="15"/>  
+<label> Mother's Name </label>     
+<input type="text" name="mothername" size="15"/> <br> <br>  
+
+
+<label for="quantity">SRM Roll:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+<label for="quantity">SRM Registration Number:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+<br>
+<br>
+
+  <input type="file" id="cfile" name="cfile">
+ <br>
+ <br>
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="B.Tech">B.Tech</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select>  
+<label>   
+Subject:  
+</label>   
+<select>  
+<option value="subject">Subject</option>  
+<option value="cse">CSE</option>  
+<option value="eee">EEE</option>
+<option value="mechanical">Mechanical</option>
+<option value="arch">Architecture</option>
+</select> 
+  <br>
+  <br>
+  <label>   
+  Quota :  
+  </label>   
+  <select>  
+  <option value="Quota">Quota</option>  
+  <option value="FF">Freedom Fighter</option>  
+    </select>  
+    <br>
+    <br>
+    <label for="Qfile">Upload your Quota file:</label>
+    <input type="file" id="Qfile" name="Qfile">
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+  
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br><br>
+ 
+
+<label for="signfile">Upload your Signature:</label>
+
+  <input type="file" id="signfile" name="signfile">
+  
+  <br>
+  <br>
+<p>Present Address:</p>
+<label> Village:</label>         
+<input type="text" name="village" size="15"/> 
+<label> Post Office: </label>     
+<input type="text" name="poffice" size="15"/> 
+<label> Thana: </label>         
+<input type="text" name="thana" size="15"/> 
+<label> Upazilla: </label>         
+<input type="text" name="upzilla" size="15"/> 
+<br>
+<br>
+
+<label> Zilla: </label>         
+<input type="text" name="zilla" size="15"/> 
+<label> Post Code: </label>         
+<input type="number" name="pcode" size="15"/> 
+<label>   
+Area Type:  
+</label>   
+<select>  
+<option value="areatype">Area Type</option>  
+<option value="C/A">C/A</option>  
+</select>  
+<br>
+<br>
+<br>
+<br>
+<p>Permanent Address:</p>
+<label> Village:</label>         
+<input type="text" name="village" size="15"/> 
+<label> Post Office: </label>     
+<input type="text" name="poffice" size="15"/> 
+<label> Thana: </label>         
+<input type="text" name="thana" size="15"/> 
+<label> Upazilla: </label>         
+<input type="text" name="upzilla" size="15"/> 
+<br>
+<br>
+
+<label> Zilla: </label>         
+<input type="text" name="zilla" size="15"/> 
+<label> Post Code: </label>         
+<input type="number" name="pcode" size="15"/> 
+<label>   
+Area Type:  
+</label>   
+<select>  
+<option value="areatype">Area Type</option>  
+<option value="C/A">C/A</option>  
+</select>  
+
+<br> <br>  
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Verification Code:  
+<input type="Password" id="pass" name="pass"> <br>   
+<br> <br>  
+Re-type Verification Code:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"/>  
+</form>  
+
+<!--div for footer-->
+<div class="footer-bar">
+
+
+    <div id="footer-container">
+
+        <ul>
+        <li><a href="#">© 2020-2021</a></li>
+          <li><a href="#">Admission Process</a></li>
+          <li><a href="#">Student Panel</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          
+          </ul>
+      <img src="![srm_logo](https://user-images.githubusercontent.com/90691270/150678550-810a7113-fdd4-4e24-9389-9bec5578c082.png)">
+      
+      
+    </div>
+</body>
+
+</html>
